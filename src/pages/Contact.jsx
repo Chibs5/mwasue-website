@@ -641,7 +641,7 @@ Contact Information:
                     <div className="space-y-2">
                       <p className="font-medium text-gray-800">• Ndola</p>
                       <p className="font-medium text-gray-800">• Mufulira</p>
-                      <p className="font-medium text-gray-800">• Other Copperbelt locations</p>
+                      <p className="font-medium text-gray-800">• Other locations</p>
                     </div>
                   </div>
                 </div>
