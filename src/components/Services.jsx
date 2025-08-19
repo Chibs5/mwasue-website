@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { motion as Motion, AnimatePresence } from 'framer-motion'
 import { 
   ChefHat, 
@@ -232,13 +233,17 @@ const services = [
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Don't see exactly what you're looking for? We specialize in creating custom catering experiences tailored to your specific needs and preferences.
           </p>
-          <Motion.button
+          <Motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-orange-500 text-white font-semibold px-8 py-4 rounded-full hover:bg-orange-600 transition-colors duration-300 shadow-lg"
           >
-            Request Custom Quote
-          </Motion.button>
+            <Link
+              to="/contact"
+              className="bg-orange-500 text-white font-semibold px-8 py-4 rounded-full hover:bg-orange-600 transition-colors duration-300 shadow-lg inline-block"
+            >
+              Request Custom Quote
+            </Link>
+          </Motion.div>
         </Motion.div>
       </div>
 
@@ -348,13 +353,17 @@ const services = [
                   <p className="text-gray-600 mb-4">
                     Final pricing depends on guest count, menu selection, and additional services
                   </p>
-                  <Motion.button
+                  <Motion.div
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="bg-orange-500 text-white font-semibold px-8 py-3 rounded-full hover:bg-orange-600 transition-colors duration-300"
                   >
-                    Get Detailed Quote
-                  </Motion.button>
+                    <Link
+                      to="/contact"
+                      className="bg-orange-500 text-white font-semibold px-8 py-3 rounded-full hover:bg-orange-600 transition-colors duration-300 inline-block"
+                    >
+                      Get Detailed Quote
+                    </Link>
+                  </Motion.div>
                 </div>
               </div>
             </Motion.div>
