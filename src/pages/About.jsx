@@ -79,13 +79,13 @@ const About = () => {
       name: "Chibwe Musendeka",
       role: "Catering Manager",
       image: "/api/placeholder/300/400",
-      bio: "Chibwe ensures that every event runs smoothly from planning to execution. Her attention to detail and excellent organizational skills make her an invaluable part of our team.",
+      bio: "Chibwe ensures that every event runs smoothly from planning to execution. His attention to detail and excellent organizational skills make him an invaluable part of our team.",
       specialties: ["Event Planning", "Client Relations", "Team Coordination", "Quality Control"],
-      experience: "6+ years",
-      education: "Event Management, Customer Service Excellence",
+      experience: "1+ years",
+      education: "Software Engineering",
       contact: {
-        phone: "+260965994659",
-        email: "chibwe@mwasueinvestmentltd.com"
+        phone: "+260967528035",
+        email: "chibwemusendeka@gmail.com"
       }
     }
   ]
