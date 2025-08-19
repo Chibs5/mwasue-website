@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { motion as Motion, AnimatePresence } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import { 
   Users, 
   Award, 
@@ -22,13 +23,13 @@ const About = () => {
   const stats = [
     {
       icon: Calendar,
-      number: "5+",
-      label: "Years of Excellence",
-      description: "Serving the Copperbelt with passion"
+      number: "Jan 2025",
+      label: "Established",
+      description: "Your newest catering partner"
     },
     {
       icon: Users,
-      number: "500+",
+      number: "70+",
       label: "Events Catered",
       description: "Creating memorable experiences"
     },
@@ -40,51 +41,51 @@ const About = () => {
     },
     {
       icon: Heart,
-      number: "1000+",
-      label: "Happy Guests",
-      description: "Smiles created through food"
+      number: "Fresh",
+      label: "Innovative Approach",
+      description: "Modern catering solutions"
     }
   ]
 
   // Team members
   const teamMembers = [
     {
-      name: "Sarah Mwasue",
+      name: "Susan Mwape",
       role: "Founder & Head Chef",
       image: "/api/placeholder/300/400",
-      bio: "With over 10 years of culinary experience, Sarah founded MWASUE Limited with a vision to bring exceptional catering services to the Copperbelt. Her passion for cooking and commitment to quality has made MWASUE a trusted name in the region.",
+      bio: "With a passion for culinary excellence, Susan founded MWASUE Limited in January 2025 with a vision to bring exceptional catering services to the Copperbelt. Her dedication to quality and innovation has quickly established MWASUE as a trusted name in the region.",
       specialties: ["Traditional Zambian Cuisine", "International Fusion", "Wedding Catering", "Menu Development"],
       experience: "10+ years",
       education: "Culinary Arts Diploma, Hospitality Management",
       contact: {
         phone: "+260965994659",
-        email: "sarah@mwasueinvestmentltd.com"
+        email: "susan@mwasueinvestmentltd.com"
       }
     },
     {
-      name: "James Banda",
+      name: "Elizabeth Mwape",
       role: "Executive Chef",
       image: "/api/placeholder/300/400",
-      bio: "James brings creativity and precision to every dish. His expertise in both local and international cuisines ensures that every meal we serve meets the highest standards of taste and presentation.",
+      bio: "Elizabeth brings creativity and precision to every dish. Her expertise in both local and international cuisines ensures that every meal we serve meets the highest standards of taste and presentation.",
       specialties: ["Gourmet Cooking", "Presentation", "Corporate Catering", "Menu Innovation"],
       experience: "8+ years",
       education: "Advanced Culinary Techniques, Food Safety Certification",
       contact: {
         phone: "+260970445730",
-        email: "james@mwasueinvestmentltd.com"
+        email: "elizabeth@mwasueinvestmentltd.com"
       }
     },
     {
-      name: "Grace Phiri",
+      name: "Chibwe Musendeka",
       role: "Catering Manager",
       image: "/api/placeholder/300/400",
-      bio: "Grace ensures that every event runs smoothly from planning to execution. Her attention to detail and excellent organizational skills make her an invaluable part of our team.",
+      bio: "Chibwe ensures that every event runs smoothly from planning to execution. Her attention to detail and excellent organizational skills make her an invaluable part of our team.",
       specialties: ["Event Planning", "Client Relations", "Team Coordination", "Quality Control"],
       experience: "6+ years",
       education: "Event Management, Customer Service Excellence",
       contact: {
         phone: "+260965994659",
-        email: "grace@mwasueinvestmentltd.com"
+        email: "chibwe@mwasueinvestmentltd.com"
       }
     }
   ]
@@ -92,34 +93,34 @@ const About = () => {
   // Company milestones
   const milestones = [
     {
-      year: "2019",
+      year: "Jan 2025",
       title: "Company Founded",
-      description: "MWASUE Limited was established with a mission to provide exceptional catering services in the Copperbelt region."
+      description: "MWASUE Limited was established on January 27th, 2025, by founder Susan Mwape with a mission to provide exceptional catering services in the Copperbelt region."
     },
     {
-      year: "2020",
-      title: "First Major Contract",
-      description: "Secured our first major corporate catering contract, establishing our reputation for reliability and quality."
+      year: "Feb 2025",
+      title: "First Events Success",
+      description: "Successfully catered our first events, establishing our reputation for quality food and reliable service in the local community."
     },
     {
-      year: "2021",
-      title: "Team Expansion",
-      description: "Expanded our team to include specialized chefs and service staff to meet growing demand."
+      year: "Mar 2025",
+      title: "Team Assembly",
+      description: "Assembled our core team of experienced professionals to ensure consistent quality and excellent service delivery."
     },
     {
-      year: "2022",
-      title: "Service Diversification",
-      description: "Introduced wedding catering and fine dining experiences to our service offerings."
+      year: "Present",
+      title: "Growing Strong",
+      description: "With 70+ events successfully catered, we continue to build our reputation as the Copperbelt's newest and most promising catering service."
     },
     {
-      year: "2023",
-      title: "Community Recognition",
-      description: "Received community recognition for supporting local suppliers and sustainable practices."
+      year: "Future",
+      title: "Expansion Plans",
+      description: "Planning to expand our services and reach more clients across the Copperbelt while maintaining our commitment to excellence."
     },
     {
-      year: "2024",
-      title: "Continued Growth",
-      description: "Continuing to serve the Copperbelt with expanded services and unwavering commitment to excellence."
+      year: "Vision",
+      title: "Our Goal",
+      description: "To become the most trusted and preferred catering partner in the Copperbelt region, known for quality, innovation, and exceptional service."
     }
   ]
 
@@ -212,7 +213,7 @@ const About = () => {
                 one of the Copperbelt's most trusted names in event catering.
               </p>
               <p>
-                Our journey began with founder Sarah Mwasue's vision to combine traditional Zambian 
+                Our journey began with founder Susan Mwape's vision to combine traditional Zambian 
                 flavors with international culinary techniques. Today, we continue to honor that 
                 vision while constantly innovating to exceed our clients' expectations.
               </p>
@@ -227,8 +228,8 @@ const About = () => {
             <div className="bg-gradient-to-br from-orange-100 to-yellow-100 rounded-2xl p-8 h-96 flex items-center justify-center">
               <div className="text-center">
                 <ChefHat className="h-20 w-20 text-orange-500 mx-auto mb-4" />
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">5+ Years</h3>
-                <p className="text-gray-600">of culinary excellence</p>
+                <h3 className="text-2xl font-bold text-gray-800 mb-2">Est. 2025</h3>
+                <p className="text-gray-600">Your newest catering partner</p>
               </div>
             </div>
           </div>
@@ -377,20 +378,28 @@ const About = () => {
             Contact us today to discuss your catering needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Motion.button
+            <Motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-orange-500 text-white font-semibold px-8 py-4 rounded-full hover:bg-orange-600 transition-colors duration-300 shadow-lg"
             >
-              Get In Touch
-            </Motion.button>
-            <Motion.button
+              <Link
+                to="/contact"
+                className="bg-orange-500 text-white font-semibold px-8 py-4 rounded-full hover:bg-orange-600 transition-colors duration-300 shadow-lg inline-block"
+              >
+                Get In Touch
+              </Link>
+            </Motion.div>
+            <Motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="border-2 border-orange-500 text-orange-500 font-semibold px-8 py-4 rounded-full hover:bg-orange-500 hover:text-white transition-colors duration-300"
             >
-              View Our Services
-            </Motion.button>
+              <Link
+                to="/services"
+                className="border-2 border-orange-500 text-orange-500 font-semibold px-8 py-4 rounded-full hover:bg-orange-500 hover:text-white transition-colors duration-300 inline-block"
+              >
+                View Our Services
+              </Link>
+            </Motion.div>
           </div>
         </Motion.div>
       </div>
