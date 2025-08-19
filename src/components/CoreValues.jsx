@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { motion as Motion, AnimatePresence } from 'framer-motion'
 import { Star, Heart, Shield, Lightbulb, Users, Leaf, X } from 'lucide-react'
 
@@ -170,13 +171,17 @@ const CoreValues = () => {
           <p className="text-lg text-gray-600 mb-8">
             Experience the difference our values make in every dish we serve
           </p>
-          <Motion.button
+          <Motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-orange-500 text-white font-semibold px-8 py-4 rounded-full hover:bg-orange-600 transition-colors duration-300 shadow-lg"
           >
-            Learn More About Us
-          </Motion.button>
+            <Link
+              to="/about"
+              className="bg-orange-500 text-white font-semibold px-8 py-4 rounded-full hover:bg-orange-600 transition-colors duration-300 shadow-lg inline-block"
+            >
+              Learn More About Us
+            </Link>
+          </Motion.div>
         </Motion.div>
       </div>
 
