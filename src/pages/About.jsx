@@ -95,7 +95,7 @@ const About = () => {
     {
       year: "Jan 2025",
       title: "Company Founded",
-      description: "MWASUE Limited was established on January 27th, 2025, by founder Susan Mwape with a mission to provide exceptional catering services in the Copperbelt region."
+      description: "MWASUE Limited was established on January 27th, 2025, by founder Susan Mwape with a mission to provide exceptional catering services in the Copperbelt and other regions."
     },
     {
       year: "Feb 2025",
