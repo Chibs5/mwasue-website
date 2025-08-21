@@ -1,4 +1,5 @@
 import { motion as Motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 import { ChefHat, Star, Users } from 'lucide-react'
 
 const Hero = () => {
@@ -59,27 +60,36 @@ const Hero = () => {
             </div>
           </Motion.div>
 
-          {/* CTA Buttons */}
+          {/* CTA Buttons with Navigation */}
           <Motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center pt-8"
           >
-            <Motion.button
+            <Motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-white text-orange-500 font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
-              View Our Services
-            </Motion.button>
-            <Motion.button
+              <Link
+                to="/services"
+                className="bg-white text-orange-500 font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-shadow duration-300 inline-block"
+              >
+                View Our Services
+              </Link>
+            </Motion.div>
+            
+            <Motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="border-2 border-white text-white font-semibold px-8 py-4 rounded-full hover:bg-white hover:text-orange-500 transition-colors duration-300"
             >
-              Contact Us
-            </Motion.button>
+              <Link
+                to="/contact"
+                className="border-2 border-white text-white font-semibold px-8 py-4 rounded-full hover:bg-white hover:text-orange-500 transition-colors duration-300 inline-block"
+              >
+                Contact Us
+              </Link>
+            </Motion.div>
           </Motion.div>
         </Motion.div>
       </div>
