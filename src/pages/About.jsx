@@ -16,6 +16,9 @@ import {
 } from 'lucide-react'
 import Navigation from '../components/Navigation'
 
+// Import images
+import susan1Img from '../assets/Susan1.jpg'
+import chibweImg from '../assets/Chibwe.jpg'
 const About = () => {
   const [selectedTeamMember, setSelectedTeamMember] = useState(null)
 
@@ -52,7 +55,7 @@ const About = () => {
     {
       name: "Susan Mwape",
       role: "Founder & Head Chef",
-      image: "/api/placeholder/300/400",
+      image: susan1Img, // Using the actual Susan image
       bio: "With a passion for culinary excellence, Susan founded MWASUE Limited in January 2025 with a vision to bring exceptional catering services to the Copperbelt. Her dedication to quality and innovation has quickly established MWASUE as a trusted name in the region.",
       specialties: ["Traditional Zambian Cuisine", "International Fusion", "Wedding Catering", "Menu Development"],
       experience: "10+ years",
@@ -78,7 +81,7 @@ const About = () => {
     {
       name: "Chibwe Musendeka",
       role: "Catering Manager",
-      image: "/api/placeholder/300/400",
+      image: chibweImg, // Using the actual Chibwe image
       bio: "Chibwe ensures that every event runs smoothly from planning to execution. His attention to detail and excellent organizational skills make him an invaluable part of our team.",
       specialties: ["Event Planning", "Client Relations", "Team Coordination", "Quality Control"],
       experience: "1+ years",
@@ -293,8 +296,19 @@ const About = () => {
                 onClick={() => setSelectedTeamMember(member)}
                 className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer overflow-hidden"
               >
-                <div className="h-64 bg-gradient-to-br from-orange-100 to-yellow-100 flex items-center justify-center">
-                  <Users className="h-24 w-24 text-orange-500" />
+                {/* Updated image rendering */}
+                <div className="h-64 overflow-hidden">
+                  {member.image && member.image !== "/api/placeholder/300/400" ? (
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div className="h-full bg-gradient-to-br from-orange-100 to-yellow-100 flex items-center justify-center">
+                      <Users className="h-24 w-24 text-orange-500" />
+                    </div>
+                  )}
                 </div>
                 
                 <div className="p-6">
@@ -436,8 +450,19 @@ const About = () => {
                 {/* Header */}
                 <div className="flex flex-col md:flex-row gap-8 mb-8">
                   <div className="w-full md:w-1/3">
-                    <div className="h-80 bg-gradient-to-br from-orange-100 to-yellow-100 rounded-xl flex items-center justify-center">
-                      <Users className="h-32 w-32 text-orange-500" />
+                    {/* Updated modal image rendering */}
+                    <div className="h-80 rounded-xl overflow-hidden">
+                      {selectedTeamMember.image && selectedTeamMember.image !== "/api/placeholder/300/400" ? (
+                        <img
+                          src={selectedTeamMember.image}
+                          alt={selectedTeamMember.name}
+                          className="w-full h-full object-cover"
+                        />
+                      ) : (
+                        <div className="h-full bg-gradient-to-br from-orange-100 to-yellow-100 flex items-center justify-center">
+                          <Users className="h-32 w-32 text-orange-500" />
+                        </div>
+                      )}
                     </div>
                   </div>
                   
