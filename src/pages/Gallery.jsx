@@ -256,7 +256,7 @@ const Gallery = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 space-y-6"
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
               >
                 {galleryImages.map((image, index) => (
                   <Motion.div
@@ -265,14 +265,14 @@ const Gallery = () => {
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
                     onClick={() => openModal(image, index)}
-                    className="break-inside-avoid cursor-pointer group"
+                    className="cursor-pointer group"
                   >
-                    <div className="relative bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+                    <div className="relative bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 h-full">
                       <div className="relative overflow-hidden">
                         <img
                           src={image.src}
                           alt={image.alt}
-                          className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300"
+                          className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                           loading="lazy"
                           onError={(e) => {
                             console.error('Image failed to load:', image.src);
