@@ -18,7 +18,7 @@ import Navigation from '../components/Navigation'
 
 // Import images
 import susan1Img from '../assets/Susan1.jpg'
-import chibweImg from '../assets/Chibwe.jpg'
+import chibweImg from '../assets/chibwe.JPG'
 const About = () => {
   const [selectedTeamMember, setSelectedTeamMember] = useState(null)
 
