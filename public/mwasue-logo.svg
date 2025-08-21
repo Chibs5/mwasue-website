@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <!-- Background circle -->
+  <circle cx="30" cy="30" r="25" fill="#f97316" stroke="#ea580c" stroke-width="2"/>
+  
+  <!-- Chef hat icon in circle -->
+  <path d="M20 35 Q20 25 30 25 Q40 25 40 35 L38 40 L22 40 Z" fill="white"/>
+  <rect x="22" y="40" width="16" height="3" fill="white"/>
+  <circle cx="26" cy="28" r="2" fill="#f97316"/>
+  <circle cx="34" cy="28" r="2" fill="#f97316"/>
+  
+  <!-- Company name -->
+  <text x="65" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1f2937">MWASUE</text>
+  <text x="65" y="45" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">LIMITED</text>
+</svg>
