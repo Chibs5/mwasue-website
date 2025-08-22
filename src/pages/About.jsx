@@ -56,7 +56,7 @@ const About = () => {
       name: "Susan Mwape",
       role: "Founder & Head Chef",
       image: susan1Img, // Using the actual Susan image
-      bio: "With a passion for culinary excellence, Susan founded MWASUE Limited in January 2025 with a vision to bring exceptional catering services to the Copperbelt. Her dedication to quality and innovation has quickly established MWASUE as a trusted name in the region.",
+      bio: "With a passion for culinary excellence, Susan founded MWASUE Investment Limited in January 2025 with a vision to bring exceptional catering services to the Copperbelt. Her dedication to quality and innovation has quickly established MWASUE as a trusted name in the region.",
       specialties: ["Traditional Zambian Cuisine", "International Fusion", "Wedding Catering", "Menu Development"],
       experience: "10+ years",
       education: "Culinary Arts Diploma, Hospitality Management",
@@ -98,7 +98,7 @@ const About = () => {
     {
       year: "Jan 2025",
       title: "Company Founded",
-      description: "MWASUE Limited was established on January 27th, 2025, by founder Susan Mwape with a mission to provide exceptional catering services in the Copperbelt and other regions."
+      description: "MWASUE Investment Limited was established on January 27th, 2025, by founder Susan Mwape with a mission to provide exceptional catering services in the Copperbelt and other regions."
     },
     {
       year: "Feb 2025",
@@ -190,10 +190,10 @@ const About = () => {
           className="text-center mb-20"
         >
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6">
-            About MWASUE Limited
+            About MWASUE Investment Limited
           </h1>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Founded with a passion for culinary excellence, MWASUE Limited has been serving the Copperbelt 
+            Founded with a passion for culinary excellence, MWASUE Investment Limited has been serving the Copperbelt 
             region with exceptional catering services that create memorable experiences for every occasion.
           </p>
           <div className="w-24 h-1 bg-orange-500 mx-auto mt-8"></div>
@@ -211,7 +211,7 @@ const About = () => {
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
             <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
               <p>
-                MWASUE Limited was born from a simple belief: that great food brings people together 
+                MWASUE Investment Limited was born from a simple belief: that great food brings people together 
                 and creates lasting memories. What started as a small catering service has grown into 
                 one of the Copperbelt's most trusted names in event catering.
               </p>

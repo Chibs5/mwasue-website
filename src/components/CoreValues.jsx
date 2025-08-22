@@ -11,7 +11,7 @@ const CoreValues = () => {
       icon: Star,
       title: "Quality First",
       description: "Never compromise on ingredients or preparation",
-      detailedDescription: "At MWASUE Limited, quality is non-negotiable. We source only the finest, freshest ingredients from trusted suppliers. Every dish is prepared with meticulous attention to detail, ensuring that each bite meets our exacting standards. From farm to table, we maintain strict quality control processes that guarantee excellence in every aspect of our catering services.",
+      detailedDescription: "At MWASUE Investment Limited, quality is non-negotiable. We source only the finest, freshest ingredients from trusted suppliers. Every dish is prepared with meticulous attention to detail, ensuring that each bite meets our exacting standards. From farm to table, we maintain strict quality control processes that guarantee excellence in every aspect of our catering services.",
       color: "bg-yellow-100 text-yellow-600"
     },
     {
@@ -25,7 +25,7 @@ const CoreValues = () => {
       icon: Shield,
       title: "Integrity & Trust",
       description: "Honest communication and reliable service",
-      detailedDescription: "Trust is the foundation of every successful partnership. We build lasting relationships through transparent communication, reliable service delivery, and honest business practices. When you choose MWASUE Limited, you can count on us to deliver exactly what we promise, when we promise it, with complete integrity.",
+      detailedDescription: "Trust is the foundation of every successful partnership. We build lasting relationships through transparent communication, reliable service delivery, and honest business practices. When you choose MWASUE Investment Limited, you can count on us to deliver exactly what we promise, when we promise it, with complete integrity.",
       color: "bg-blue-100 text-blue-600"
     },
     {
@@ -113,7 +113,7 @@ const CoreValues = () => {
             Our Core Values
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            The principles that guide everything we do at MWASUE Limited
+            The principles that guide everything we do at MWASUE Investment Limited
           </p>
           <div className="w-24 h-1 bg-orange-500 mx-auto mt-8"></div>
         </Motion.div>
@@ -228,7 +228,7 @@ const CoreValues = () => {
 
                 <div className="mt-8 pt-6 border-t border-gray-200">
                   <p className="text-sm text-gray-500">
-                    This value is at the heart of everything we do at MWASUE Limited
+                    This value is at the heart of everything we do at MWASUE Investment Limited
                   </p>
                 </div>
               </div>

@@ -27,7 +27,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <ChefHat className="h-8 w-8 text-orange-500" />
-            <span className="text-xl font-bold text-gray-800">MWASUE Limited</span>
+            <span className="text-xl font-bold text-gray-800">MWASUE Investment Limited</span>
           </Link>
 
           {/* Desktop Navigation */}

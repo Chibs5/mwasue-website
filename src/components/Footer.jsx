@@ -14,7 +14,7 @@ import {
 const Footer = () => {
   // WhatsApp message template
   const getWhatsAppMessage = () => {
-    return `Hello MWASUE Limited! I'm interested in your catering services. Please send me more information.`
+    return `Hello MWASUE Investment Limited! I'm interested in your catering services. Please send me more information.`
   }
 
   const whatsappUrl = `https://wa.me/260970445730?text=${encodeURIComponent(getWhatsAppMessage())}`
@@ -81,7 +81,7 @@ const Footer = () => {
             <Motion.div variants={itemVariants} className="lg:col-span-1">
               <div className="flex items-center space-x-3 mb-6">
                 <ChefHat className="h-8 w-8 text-orange-500" />
-                <span className="text-2xl font-bold">MWASUE Limited</span>
+                <span className="text-2xl font-bold">MWASUE Investment Limited</span>
               </div>
               
               <p className="text-gray-300 mb-4 leading-relaxed">
@@ -245,7 +245,7 @@ const Footer = () => {
         >
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2025 MWASUE Limited. All rights reserved.
+              © 2025 MWASUE Investment Limited. All rights reserved.
             </p>
             
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
