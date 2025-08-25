@@ -59,7 +59,7 @@ const About = () => {
       bio: "With a passion for culinary excellence, Susan founded MWASUE Investment Limited in January 2025 with a vision to bring exceptional catering services to the Copperbelt. Her dedication to quality and innovation has quickly established MWASUE as a trusted name in the region.",
       specialties: ["Traditional Zambian Cuisine", "International Fusion", "Wedding Catering", "Menu Development"],
       experience: "10+ years",
-      education: "Culinary Arts Diploma, Hospitality Management",
+      education: "Diploma in Nursing, Certificate in Food & Beverage Management",
       contact: {
         phone: "+260965994659",
         email: "susan@mwasueinvestmentltd.com"
@@ -72,7 +72,7 @@ const About = () => {
       bio: "Elizabeth brings creativity and precision to every dish. Her expertise in both local and international cuisines ensures that every meal we serve meets the highest standards of taste and presentation.",
       specialties: ["Gourmet Cooking", "Presentation", "Corporate Catering", "Menu Innovation"],
       experience: "8+ years",
-      education: "Advanced Culinary Techniques, Food Safety Certification",
+      education: "Bachelors Degree in Home Economics",
       contact: {
         phone: "+260970445730",
         email: "elizabeth@mwasueinvestmentltd.com"
@@ -85,7 +85,7 @@ const About = () => {
       bio: "Chibwe ensures that every event runs smoothly from planning to execution. His attention to detail and excellent organizational skills make him an invaluable part of our team.",
       specialties: ["Event Planning", "Client Relations", "Team Coordination", "Quality Control"],
       experience: "1+ years",
-      education: "Software Engineering",
+      education: "Bachelors Degree in Software Engineering",
       contact: {
         phone: "+260967528035",
         email: "chibwemusendeka@gmail.com"
