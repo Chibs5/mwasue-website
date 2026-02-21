@@ -4,7 +4,7 @@
 
 A modern, responsive website for MWASUE Investment Limited, a premium catering company based in the Copperbelt region of Zambia. This website showcases our culinary expertise, services, and passion for creating exceptional dining experiences.
 
-**Live Website:** [https://incredible-stardust-28ceb2.netlify.app/](https://mwasue.netlify.app/)
+**Live Website:** [https://mwasue.netlify.app/](https://mwasue.netlify.app/)
 
 ## 📱 Screenshots
 
